@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import json
 from requests.auth import HTTPBasicAuth
-import config # a file wiht secrets
+import config # a file with secrets
 
 login = HTTPBasicAuth(config.username, config.key)
 
