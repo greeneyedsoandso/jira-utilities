@@ -3,7 +3,7 @@
 from requests.auth import HTTPBasicAuth
 from datetime import datetime
 import sys
-import config
+import config # a file with secrets
 import list_compare as lc
 import update_utilities as uu
 
